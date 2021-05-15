@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz 2</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+    <!--El lugar para poner la descripción-->
+    <div id="titlePart">
+        <h2 id="title">Global Solution S.A.S</h2>
+    </div>
+    
+    <div id="editText">
+        <input id="taskDesc" placeholder="¿Qué tienes por hacer?" type="text">
+        <button id="putTaskBtn">New Task</button>
+    </div>
+    
+    <!--To Do container-->
+    <div id="cards">
+    <div id="firstContainer">
+        <h2 id="categoria">To Do</h2>
+        <div id="todoCard"></div>
+    </div>
+    
+    <!--Doing container-->
+    <div id="secondContainer">
+        <h2 id="categoria">Doing</h2>
+        <div id="doingCard"></div>
+    </div>
+
+    <!--Done container-->
+    <div id="thirdContainer">
+        <h2 id="categoria">Done</h2>
+        <div id="doneCard"></div>
+    </div>
+</div>
+</body>
+</html>
+
+<!--Ahora si conecto firebase-->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCEg8pzwPzto8zbPwUvk8mKZUh8kBZSIqU",
+      authDomain: "practica10-cc583.firebaseapp.com",
+      databaseURL: "https://practica10-cc583-default-rtdb.firebaseio.com",
+      projectId: "practica10-cc583",
+      storageBucket: "practica10-cc583.appspot.com",
+      messagingSenderId: "473190651959",
+      appId: "1:473190651959:web:a13902f41a8b6deab087b2",
+      measurementId: "G-QLVQ1VLNFL"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+<script src="js/index.js"></script>
+<script src="js/task.js"></script>
+

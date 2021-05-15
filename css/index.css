@@ -1,0 +1,86 @@
+#titlePart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2%;
+    width: 100%;
+    height: 50%;
+    font-family: sans-serif;
+
+}
+#editText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    gap: 1%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: rgb(126, 241, 240);
+}
+
+#cards{
+    margin: 0 auto;
+    max-width: 1000px;
+    gap: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: sans-serif;
+}
+
+#firstContainer{
+background-color: rgb(231, 153, 160);
+}
+#secondContainer{
+background-color: rgb(135, 199, 241);
+}
+#thirdContainer{
+background-color: rgb(153, 231, 189);
+}
+
+.fechaImp{
+    margin: 2%;
+    max-width: 1000px;
+    text-align: left;
+    font-size: 10px;
+    padding-left: 0%;
+    color: rgb(114, 114, 114);
+}
+
+.allComp{
+    margin: 5%;
+    max-width: 1000px;
+    text-align: left;
+    font-family: sans-serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: whitesmoke;
+}
+
+.blueBtn {
+    width: 10px;
+    height: 10px;
+    margin: 4%;
+    background-color: dodgerblue;
+}
+
+.redBtn {
+    width: 10px;
+    height: 10px;
+    margin: 4%;
+    background-color: rgb(177, 34, 42);
+}
+
+.yellowBtn {
+    width: 10px;
+    height: 10px;
+    margin: 4%;
+    background-color: rgb(226, 167, 39);
+}
